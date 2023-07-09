@@ -45,3 +45,22 @@ typedef struct 变量名
 ```
 
 ==c语言的结构体类似于java中的类的概念==
+
+
+
+### 指针操作结构体内容
+
+E1: 以顺序线性表为例为例
+
+```c
+typedef struct list{
+    int data[100];
+    int length;
+}list；
+list *l;
+l->length=0;
+list k;
+k.length=0;
+
+```
+
